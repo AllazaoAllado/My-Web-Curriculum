@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+body {
+    background: gray;
+}
+
+.main-menu {
+    background-color: black;
+    height: 80px;
+    font-size: 50px;
+    padding: 5px;
+    border: 50px;  
+    
+}
+
+.nome {
+    margin: 8px;
+    color: white;
+    
+}

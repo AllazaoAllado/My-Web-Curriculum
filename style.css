@@ -1,23 +1,68 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    }
-body {
-    background: gray;
-}
-
-.main-menu {
+body{
     background-color: black;
-    height: 80px;
-    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+main {
+    background-color: coral;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 1%;
+}
+
+main p {
     padding: 5px;
-    border: 50px;  
+}
+
+main img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border-style: solid;
+    margin-top: 10px;
+
+}
+
+main h1 {
+    text-align: center;
+}
+
+nav{
+    background-color: dimgray;
+    font-size: 18px;
+
+}
+
+nav li {
+    display: inline;
+    background-color: red;
     
 }
 
-.nome {
-    margin: 8px;
-    color: white;
-    
+nav li:hover{
+    cursor: pointer;
+}
+
+nav ul{
+    margin-top: 9px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+}
+
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+}
+#sobre {
+    margin-right: 100px;
+
 }

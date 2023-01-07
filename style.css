@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    color: #D9D9D9;
     background-color: #D9D9D9;
+    margin-top: 0;
+    margin-bottom: 0;
+    
     
     
 }
@@ -28,7 +32,7 @@ body{
 
 header{
     height: 350px;
-    margin-top: 50px;
+    margin-top: 0px;
     
 }
 
@@ -39,7 +43,6 @@ main{
     text-align: center;
     background-color: #0D0D0D;
     border-radius: 5px;
-    box-shadow: 4px 2px 3px #00000081;
     
 }
 #linguagens li{
@@ -85,6 +88,7 @@ nav{
     background-color: #404040;
     border-radius: 1.5px;
     padding-top: 30px;
+
 }
 
 
@@ -122,7 +126,8 @@ p{
 #redes h2{
     text-align: left;
     padding-top: 50px;
-    padding-left: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
 }
 
 #contatos img{
@@ -135,7 +140,11 @@ p{
     position: relative;
     padding-left: 8px;
     bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+
 
     
 
@@ -144,14 +153,18 @@ p{
     list-style: none;
     text-align: left;
     padding-top: 10px;
+    
 }
 
 #whatsapp{
     background-color: #29A71A;
+    margin-left: 0;
+
 }
 
 #whatsapp:hover{
     background-color: #28a71ad4;
+    
 }
 
 #gmail{
@@ -187,20 +200,24 @@ p{
     border-radius: 5px;
     display: inline-block;
     margin-left: 10px;
+    
 
 }
 
 a{
-    color: white;
+    color: #D9D9D9;
 }
 
 ul#contatos{
-    padding-left: 5px;
+    padding-left: 30px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #sobre h2 {
     text-align: left;
     padding-left: 40px;
+    margin-bottom: 20px;
 }
 
 #liguagens img{
@@ -215,6 +232,43 @@ bottom: 270px;
 
 #projetos{
     text-align: left;
-    margin-left: 20px;
+    padding-left: 40px;
+    cursor: default;
 }
 
+
+#projetos a {
+    padding: 10px;
+    background-color: #404040;
+    text-decoration: none;
+    border-style: solid;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin-top: 16px;
+    margin-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+#projetos a:hover{
+    background-color: #40404071;
+}
+
+#h2-projetos{
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #0D0D0D;
+    display: block;
+
+}
+
+footer p{
+    padding-top: 150px;
+    padding-bottom: 10px;
+    background-color: #0D0D0D;
+
+}

@@ -1,68 +1,220 @@
 body{
-    background-color: black;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-}
-
-main {
-    background-color: coral;
-    margin: auto;
-    width: 400px;
-    height: 500px;
-    border-style: solid;
-    border-radius: 1%;
-}
-
-main p {
-    padding: 5px;
-}
-
-main img {
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100px;
-    border-style: solid;
-    margin-top: 10px;
-
-}
-
-main h1 {
-    text-align: center;
-}
-
-nav{
-    background-color: dimgray;
-    font-size: 18px;
-
-}
-
-nav li {
-    display: inline;
-    background-color: red;
+    color: white;
+    background-color: #D9D9D9;
+    
     
 }
 
-nav li:hover{
-    cursor: pointer;
+#perfil{
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    margin-left: 10px;
+    position: relative;
+    right: 350px;
+    bottom: 160px;
+
 }
 
-nav ul{
-    margin-top: 9px;
-    margin-bottom: 1px;
-    padding-left: 10px;
-    text-align: center;
-    padding: 0px;
-    height: 30px;
-}
-
-ul, ol, li {
-    list-style: none;
-    padding: 0;
-}
 #sobre {
-    margin-right: 100px;
+    
+    margin-top: 0;
+}
+
+#sobre p {
+    margin-top: 0;
+}
+
+header{
+    height: 350px;
+    margin-top: 50px;
+    
+}
+
+main{
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: #0D0D0D;
+    border-radius: 5px;
+    box-shadow: 4px 2px 3px #00000081;
+    
+}
+#linguagens li{
+    width: 80px;
+    list-style: none;
+    display: inline-block;
+}
+
+#idioma{
+    margin: 25px;
+}
+#idioma li {
+    list-style: none;
+    display: inline-block;
+    left: 350px;
+}
+
+#idioma img{
+    width: 60px;
+    display: inline;
+    
+}
+
+
+
+ul#idioma{
+    display: inline-block;
+    padding: 0;
+    margin-left: 800px;
 
 }
+ul#idioma:hover{
+    cursor: default;
+}
+
+#idioma img:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.451);
+}
+
+
+nav{
+    background-color: #404040;
+    border-radius: 1.5px;
+    padding-top: 30px;
+}
+
+
+
+#sobre p{
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 40px;
+    
+}
+
+#sobre{
+    width: 700px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 5px;
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+hr{
+    top: 50px;
+    width: 980px;
+    margin: auto;
+    position: relative;
+}
+p{
+    text-align: center;
+
+}
+
+#redes h2{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#contatos img{
+    width: 50px;
+    display: inline-block;
+}
+#contatos p {
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 8px;
+    bottom: 15px;
+}
+
+    
+
+#contatos {
+    
+    list-style: none;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#whatsapp{
+    background-color: #29A71A;
+}
+
+#whatsapp:hover{
+    background-color: #28a71ad4;
+}
+
+#gmail{
+    background-color: #D93636;
+}
+
+#gmail:hover{
+    background-color: #d93636d4;
+}
+
+#instagram{
+    background-image: linear-gradient(to top, #9A02D1 ,#D00095,#F5B00A 90%);
+}
+
+#instagram:hover{
+    background-image: linear-gradient(to top, #9a02d1d4 ,#d00095d4,#f5af0ad4 90%);
+}
+
+#linkedin{
+    background-color: #0077B5;
+}
+
+#linkedin:hover{
+    background-color: #0076b5d4;
+}
+
+
+#contatos li{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+a{
+    color: white;
+}
+
+ul#contatos{
+    padding-left: 5px;
+}
+
+#sobre h2 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#liguagens img{
+    width: 40px;
+}
+
+#liguagens{
+position: relative;
+bottom: 270px;
+
+}
+
+#projetos{
+    text-align: left;
+    margin-left: 20px;
+}
+

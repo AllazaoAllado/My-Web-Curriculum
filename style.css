@@ -53,17 +53,18 @@ main{
 
 #idioma{
     margin: 25px;
+    
 }
 #idioma li {
     list-style: none;
     display: inline-block;
     left: 350px;
+    display: none;
 }
 
 #idioma img{
     width: 60px;
     display: inline;
-    
 }
 
 

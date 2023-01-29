@@ -71,7 +71,7 @@ function English(){
     footer.innerHTML = 'Developed by Allan Souza Cordeiro'
 }
 
-function Portuguese(){
+function portuguese(){
     let sobre = window.document.getElementById('sobre')
     let texto_sobre = window.document.getElementById('texto-sobre')
     let contatos = window.document.getElementById('contatos')

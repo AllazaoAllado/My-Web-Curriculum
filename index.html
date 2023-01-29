@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculo</title>
   <link rel="stylesheet" href="style.css">
-  
 
 </head>
 <body>
   <header>
     <div id="cinza">
+      <section id="idioma">
+        <img src="image/brasil_2.png" alt="brazil" onclick="portuguese()">
+        <img src="image/estados-unidos_2.png" alt="EUA" onclick="english()">
+      </section>
       <div id="foto">
         <img src="image/WhatsApp Image 2022-05-04 at 14.30.19.jpeg" alt="foto Allan">
       </div>
@@ -27,13 +30,13 @@
     </div>
   </header>
   <main>
-    <h2>Sobre:</h2>
+    <h2 id="sobre">Sobre:</h2>
     <p id="texto-sobre">
       Olá! eu sou o Allan, tenho 19 anos e sou um amante da tecnologia e programação. Pretendo me tornar um grande programador, claro que estou só no começo, porém para mim nem o céu é o limite. Além de programar gosto também de ler e jogar, amo uma boa história e um bom conteudo.
     </p>
 
     <section id="redes">
-      <h2>Contatos:</h2>
+      <h2 id="contatos">Contatos:</h2>
       <ul id="contatos">
         <a href="https://wa.me/5548998013745" target="_blank"><li id="whatsapp"><img src="image/whatsapp.png" alt="whats"><p>WhatsApp</p></li></a>
         <a href="https://www.linkedin.com/in/allan-souza-cordeiro-649322228/" target="_blank"><li id="linkedin"><img src="image/linkedin.png" alt="linkedin"><p>Linkedin</p></li></a>
@@ -45,14 +48,15 @@
     <section id="projetos">
       <h2 id="h2-projetos">Projetos:</h2>
       <a href="
-      https://allazaoallado.github.io/calculadora-media/">Calculadora de media</a>
-      <a href="https://allazaoallado.github.io/Bhaskara/">Calculadora de bhaskara</a>
-      <a id="calculadora-desconto" href="https://allazaoallado.github.io/calculadora-desconto/">Calculadora de desconto</a>
+      https://allazaoallado.github.io/calculadora-media/?#"
+      id="calculadora-de-media">Calculadora de media</a>
+      <a href="https://allazaoallado.github.io/Bhaskara/" id="calculadora-de-bhaskara">Calculadora de bhaskara</a>
+      <a id="calculadora-desconto" href="https://allazaoallado.github.io/calculadora-desconto/" id="calculadora-de-desconto">Calculadora de desconto</a>
     </section>
 
   </main>
   <footer>
-    <p>Desenvolvido por Allan Souza Cordeiro</p>
+    <p id="footer">Desenvolvido por Allan Souza Cordeiro</p>
   </footer>
   <script src="script.js"></script>
 </body>

@@ -30,6 +30,23 @@ header h1{
 
 }
 
+#idioma {
+    cursor: default;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#idioma img {
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#idioma img:hover{
+    opacity: 1.0;
+}
+
 #foto img{
     max-width: 180px;
     border-radius: 50%;
@@ -196,5 +213,5 @@ h2{
 
 #h2-projetos{
     margin-top: 70px;
-    font-size: 2em;
+    font-size: 1.5em;
 }

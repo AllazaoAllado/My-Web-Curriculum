@@ -44,7 +44,7 @@ function greeting(){
     }
 }
 
-function english(){
+function English(){
     let about = window.document.getElementById('sobre')
     let text_about = window.document.getElementById('texto-sobre')
     let contacts = window.document.getElementById('contatos')
